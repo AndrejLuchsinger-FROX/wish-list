@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="item" table="x_555270_wish_list_wish_item">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="url" table="x_555270_wish_list_wish_item">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Item</column_label>
+        <column_label>URL</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -17,19 +22,19 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>item</element>
+        <element>url</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>125</max_length>
+        <internal_type display_value="URL">url</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
         <name>x_555270_wish_list_wish_item</name>
         <next_element/>
         <primary>false</primary>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-06-16 07:57:01</sys_created_on>
-        <sys_id>e519ac361b001110f8e48623604bcbe4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Item</sys_name>
+        <sys_created_on>2022-06-16 08:35:38</sys_created_on>
+        <sys_id>bfd1b47a1b001110f8e48623604bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>URL</sys_name>
         <sys_package display_value="Wish List" source="x_555270_wish_list">2688ac721b001110f8e48623604bcbc0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wish List">2688ac721b001110f8e48623604bcbc0</sys_scope>
-        <sys_update_name>sys_dictionary_x_555270_wish_list_wish_item_item</sys_update_name>
+        <sys_update_name>sys_dictionary_x_555270_wish_list_wish_item_url</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-16 08:48:55</sys_updated_on>
+        <sys_updated_on>2022-06-16 08:35:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
